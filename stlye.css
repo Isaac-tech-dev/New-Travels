@@ -1,0 +1,393 @@
+:root {
+    --main-header-color: #181e4b;
+    --main-text-color: #212832;
+    --alt-text-color: #df6951;
+}
+
+* {
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    /*padding: 50px;*/
+    background-image: url("assets/hero/decore.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "volkhov", sans-seri  f;
+}
+
+/* Lists */
+.ls-none {
+    list-style: none;
+}
+/* Layout */
+
+/* Gap */
+.gap-1 {
+    gap: 1em;
+}
+.gap-2 {
+    gap: 2em;
+}
+.gap-3 {
+    gap: 3em;
+}
+.gap-5 {
+    gap: 5em;
+}
+
+/* Padding */
+.px-sm {
+    padding: 5px 15px;
+}
+.px-1 {
+    padding: 10px 20px;
+}
+.px-2 {
+    padding: 20px 30px;
+}
+.p-1 {
+    padding: 1em;
+}
+.p-2 {
+    padding: 2em;
+}
+.p-4 {
+    padding: 4em;
+}
+.p-5 {
+    padding: 5em;
+}
+
+/* Margin */
+.m-0 {
+    margin: 0;
+}
+.mt-1 {
+    margin-top: 1em;
+}
+.mt-2 {
+    margin-top: 2em;
+}
+.mt-3 {
+    margin-top: 3em;
+}
+.mt-4 {
+    margin-top: 4em;
+}
+.mt-5 {
+    margin-top: 5em; 
+}
+.mt-8 {
+    margin-top: 8em; 
+}
+.mt-20 {
+    margin-top: 20em;
+    
+}
+
+/* Display */
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-around;
+}
+
+
+/* Font and Text */
+.decoration-none {
+    text-decoration: none;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+/* Colors */
+.header-color {
+    color: var(--main-header-color);
+}
+.main-text-color {
+    color: var(--main-text-color);
+}
+.alt-text-color {
+    color: var(--alt-text-color);
+
+}
+
+
+/*Border */
+.border-none {
+    border: none;
+}
+.radius-5 {
+    border-radius: 5px;
+}
+.lh-0 {
+    line-height: 0;
+}
+
+/* Main Style*/
+.nav-link {
+    color: var(--main-text-color);
+}
+.nav-btn {
+    background: none;
+    border: 1px solid var(--main-text-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-btn:hover {
+    background-color: var(--alt-text-color);
+    color: white;
+    border: none;
+}
+
+/* Hero  */
+.hero-container {
+    padding: 50px;
+}
+.hero-header {
+    font-size: 80px;
+    line-height: 89px;
+    width: 600px;
+}
+.hero-image-wrapper {
+    position: absolute;
+    right: 0;
+}
+.hero-text {
+    width: 477px;
+}
+.hero-btn {
+    background: none;
+    border: 1px solid var(--main-text-color);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero-btn:hover {
+    background-color: var(--alt-text-color);
+    color: white;
+    border: none;
+}
+.section-header {
+    font-size: 50px;
+}
+.section-caption {
+    line-height: 0;
+}
+.destination-card {
+    border-radius: 24px;
+    box-shadow: 0 20px 20px #dedcdc;
+}
+.destination-img {
+    width: 365px;
+    height: 350px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+/*Book a trip section*/
+.book-trip-section-header {
+    width: 511px;
+    line-height: 64.5px;
+}
+.book-trip-section {
+    position: absolute;
+}
+.book-trip-icon {
+    width: 47px;
+    height: 48px;
+}
+.book-trip-text {
+    width: 327px;
+}
+.book-trip-title {
+    margin: 0;
+}
+.book-trip-main-image {
+    width: 321px;
+    border-radius: 24px;
+    
+}
+.book-trip-figure-wrapper {
+    position: relative;
+    right: -3em;
+    top: -8em;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0 0 30px 30px #f1f5f9;
+}
+.book-trip-alt-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.mini-trip-card-wrapper {
+    position: absolute;
+    bottom: 4em;
+    right: -6em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 15px #f1f5f9;
+}
+
+/* TESTIMONIAL SECTION */
+.testifier-img {
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    border-radius: 50px;
+    top: -20px;
+    left: -45px;
+  }
+  
+  .testimony-content-wrapper {
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 #d3d3d3;
+    border-radius: 10px;
+    width: 402px;
+    position: relative;
+    right: -10em;
+  }
+
+  .controls-wrapper {
+      left: -40px;
+  }
+  .x-controls-wrapper {
+      display: none;
+  }
+  
+/*Call to action*/
+.cta-wrapper {
+    margin: 4rem;
+    background-color: #dfd7f9;
+    border-radius: 129px 20px 20px 20px;
+    background-image: url("/assets/patterns/cta-bg-1.png"), url("/assets/patterns/cta-bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+  
+.cta-header {
+    font-size: 33px;
+    color: #5e6282;
+    width: 859px;
+}
+  
+.telegram-icon {
+    top: -24px;
+    right: -24px;
+}
+  
+.cta-input,
+.cta-btn {
+    border-radius: 8px;
+}
+  
+.cta-input {
+    width: 27em;
+    padding: 20px;
+    border: none;
+}
+  
+.cta-btn {
+    padding: 20px 25px;
+    background-color: #ff8d6b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.cta-btn:hover {
+    background-color: var(--main-text-color);
+    color: white;
+    border: none;
+}
+  
+.cta-input::placeholder {
+    background: url("/assets/icons/email.png") no-repeat;
+    text-indent: 30px;
+}
+  /* Footer */
+.social-icon {
+    padding: 15px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+}
+  
+.facebook {
+    background-color: #4267b2;
+}
+  
+.instagram {
+    background-image: linear-gradient(to right, #e66465, #e66790, #d675b6, #b887d4, #9198e5);
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+ /*  ======= MOBILE RESPONSIVENESS ====== */
+ @media (min-width: 0) and (max-width: 600px) {
+    .section-caption {
+      text-align: center;
+    }
+    .section-header {
+      line-height: 50px;
+    }
+    .features-wrapper {
+      flex-direction: column;
+    }
+    .destinations-wrapper {
+      flex-direction: column;
+    }
+    .destination-img {
+      width: 279px;
+      height: 279px;
+    }
+    .book-trip-section {
+      width: fit-content;
+    }
+    .book-trip-figure-wrapper {
+      display: none;
+    }
+    .testimonials-section {
+      flex-direction: column;
+    }
+    .testimony-content-wrapper {
+      width: fit-content;
+    }
+    .testifier-img {
+      top: -10px;
+      left: 90px;
+    }
+    .controls-wrapper {
+      display: none;
+    }
+    .x-controls-wrapper {
+      display: block;
+      margin-top: 20px;
+    }
+  }

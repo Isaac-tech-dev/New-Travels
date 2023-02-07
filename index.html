@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>Travel Website</title>
+
+        <!--External Stylesheet-->
+        <link rel="stylesheet" href="stlye.css" />
+
+        <!--Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="hero-container">
+            <nav class=" d-flex justify-between ">
+                <div>
+                    <img src="assets/Logo.png" alt="Brand Logo">
+                </div>
+                <div>
+                    <ul class=" nav-items ls-none d-flex  gap-5 text-bold">
+                        <li><a href="#" class="nav-link decoration-none">Destinations</a></li>
+                        <li><a href="#" class="nav-link decoration-none">Hotels</a></li>
+                        <li><a href="#" class="nav-link decoration-none">Flight</a></li>
+                        <li><a href="#trip" class="nav-link decoration-none">Bookings</a></li>
+                        <li><a href="#" class="nav-link decoration-none">Login</a></li>
+                        <li><button class="nav-btn px-sm">Sign Up</button></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-flex">
+                <div class="hero-caption mt-4">
+                    <h3 class="alt-text-color uppercase">best destinations around the world</h3>
+                    <h1 class="header-color hero-header m-0">Travel, enjoy and live a new and full life</h1>
+                    <p class="hero-text main-text-color">Built Wicket longer admire do barton vanity itself do in it. Prefered to 
+                        sportmen it engrossed listening.
+                         Park gate sell they west hard for the.
+                    </p>
+                    <div>
+                        <ul class="ls-none">
+                            <li><button class="hero-btn border-none px-1 radius-5">Find out more</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="assets/hero/1.png" alt="Hero-Image"/>
+                </div>
+            </div>
+        </header>
+
+        <section class="mt-20 text-center">
+            <div class="section-caption">
+            <p class="uppercase">Category</p>
+            <h1 class="capitalize section-header header-color">we offer best services</h1>
+            </div>
+            <article class="d-flex justify-between mt-4 gap-3">
+                <div class="p-2">
+                    <img src="assets/icons/satellite.png" alt="" />
+                    <h3 class="header-color">Calculated Weather</h3>
+                    <p>Built wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+                <div class="p-2">
+                    <img src="assets/icons/microphone.png" alt="" />
+                    <h3 class="header-color">Best Flights</h3>
+                    <p>Engrossed listening. Park gate sell they west hard for.</p>
+                </div>
+                <div class="p-2">
+                    <img src="assets/icons/microphone.png" alt="" />
+                    <h3 class="header-color">Local Events</h3>
+                    <p>Barton vanity itself do in it. Prefered to men it engrossed listening.</p>
+                </div>
+                <div class="p-2">
+                    <img src="assets/icons/settings.png" alt="" />
+                    <h3 class="header-color">Customization</h3>
+                    <p>We deliver outsourced aviation services for military customers.</p>
+                </div>
+            </article>
+        </section>
+
+        <!--Destination-->
+        <section class="mt-8 text-center">
+            <div class="section-caption">
+            <p class="uppercase">Top selling</p>
+            <h1 class="capitalize section-header header-color">Top Destinations</h1>
+            </div>
+        </section>
+
+        <!--Destination Card-->
+        <div class="d-flex justify-between">
+            <figure class="destination-card">
+                <img src="assets/destinations/rome.jpg" alt="" class="destination-img">
+                <figcaption class="px-1">
+                    <div class="d-flex justify-between">
+                        <p>Rome, Italy</p>
+                        <p>$5.42k</p>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <img src="assets/icons/location.svg" alt=""/><p>10 days trip</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="destination-card">
+                <img src="assets/destinations/london.jpg" alt="" class="destination-img">
+                <figcaption class="px-1">
+                    <div class="d-flex justify-between">
+                        <p>London, Uk</p>
+                        <p>$4.42k</p>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <img src="assets/icons/location.svg" alt=""/><p>10 days trip</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="destination-card">
+                <img src="assets/destinations/europe.jpg" alt="" class="destination-img">
+                <figcaption class="px-1">
+                    <div class="d-flex justify-between">
+                        <p>Full Europe</p>
+                        <p>$15k</p>
+                    </div>
+                    <div class="d-flex gap-1">
+                        <img src="assets/icons/location.svg" alt=""/><p>10 days trip</p>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        </section>
+
+        <!--Book a trip section-->
+        <section class="book-trip-section mt-8 textleft p-4" id="trip">
+            <div class="section-caption">
+                <p class="uppercase">easy and fast</p>
+                <h1 class="section-header header-color capitalize book-trip-section-header" style="margin-top:0;">
+                Book your next trip in 3 easy steps
+                </h1>
+            </div>
+
+        <div class="d-flex justify-between">
+            <div>
+                <div class="d-flex gap-2 mt-2">
+                <img src="assets/icons/Group 7.png" alt="" class="book-trip-icon"/>
+                    <div>
+                <h4 class="book-trip-title">Choose Destination</h4>
+                <p class="book-trip-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2 mt-2">
+                <img src="assets/icons/Group 12.png" alt="" class="book-trip-icon"/>
+                    <div>
+                <h4 class="book-trip-title">Make Payment</h4>
+                <p class="book-trip-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-2 mt-2">
+                <img src="assets/icons/Group 11.png" alt="" class="book-trip-icon"/>
+                    <div>
+                <h4 class="book-trip-title">Reach Arport on selected Dates</h4>
+                <p class="book-trip-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+           </div>
+           <figure class="book-trip-figure-wrapper p-2">
+            <img src="assets/book-trip/1.jpg" alt="Look a trip image" class="book-trip-main-image"/>
+ 
+            <figcaption>
+                <div style="line-height: 10px;">
+                 <h3>Trip to Greece</h3>
+                 <p>14 - 29 June | Ine Isaac</p>
+                </div>
+                <div>
+                    <img src="assets/icons/LEAF.svg" alt="Leaf" />
+                    <img src="assets/icons/map icon.svg" alt="Map" />
+                    <img src="assets/icons/send.svg" alt="Send" />
+                </div>
+                <div class="d-flex gap-1 mt-2">
+                    <img src="assets/icons/building 1.svg" alt="Building" />
+                    <p>24 people sharing</p>
+                </div>
+            </figcaption>
+ 
+            <div class=" mini-trip-card-wrapper d-flex gap-2 p-1">
+                <img src="assets/destinations/rome-2.jpg" alt="rome-2" class="book-trip-alt-image"/>
+                <div>
+                    <h4 style="margin: 0;">Trip to Rome</h4>
+                    
+                    <div class="mt-1">
+                     <label for="progressbar">40% completed</label> <br/>
+                     <progress id="progressbar" value="40" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        </div>
+        <!-- Testimonials Section -->
+    <section class="testimonials-section mt-8 text-left d-flex justify-between p-4">
+      <div class="section-caption">
+        <p class="uppercase">testimonials</p>
+        <h1 class="section-header header-color capitalize book-trip-section-header" style="margin-top: 0">
+          What People Say About Us
+        </h1>
+      </div>
+
+      <!-- Testimonial Content -->
+      <div class="testimony-content-wrapper p-3">
+        <img src="/assets/testimonials/fine face.jpg" alt="Testifier" class="testifier-img" />
+        <div>
+          <p>
+            “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of
+            believed or diverted no.”
+          </p>
+          <div class="lh-0 mt-3">
+            <h3>Clinton Adabanya</h3>
+            <p>Full-stack Developer</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonials Controls -->
+      <div class="controls-wrapper d-flex flex-column gap-1 self-center relative">
+        <i class="bi bi-chevron-up"></i>
+        <i class="bi bi-chevron-down"></i>
+      </div>
+      <!-- Testimonials Controls -->
+      <div class="x-controls-wrapper d-flex gap-1 self-center relative">
+        <i class="bi bi-chevron-left"></i>
+        <i class="bi bi-chevron-right"></i>
+      </div>
+    </section>
+    <!-- PARTNERS -->
+    <section class="partners-wrapper p-4 d-flex justify-between">
+        <img src="/assets/logos/image 27.png" alt="Partner One" class="m-auto" />
+        <img src="/assets/logos/image 28.png" alt="Partner Two" class="m-auto" />
+        <img src="/assets/logos/image 29.png" alt="Partner Three" class="m-auto" />
+        <img src="/assets/logos/image 30.png" alt="Partner Four" class="m-auto" />
+        <img src="/assets/logos/image 31.png" alt="Partner Five" class="m-auto" />
+      </section>
+
+      <!-- CALL TO ACTION -->
+    <section class="p-5 cta-wrapper relative text-center">
+        <div class="absolute telegram-icon">
+          <img src="/assets/icons/Group 77.png" alt="Telegram-like Icon" />
+        </div>
+        <h1 class="cta-header m-auto">
+          Subscribe to get information, latest news and other interesting offers about Cobham
+        </h1>
+  
+        <form class="mt-4">
+          <input type="text" name="email" placeholder="Your Email Here" class="cta-input" />
+          <button class="cta-btn">Subscribe</button>
+        </form>
+      </section>
+      <footer class="d-flex justify-between mt-8 p-4">
+        <div style="width: 200px">
+          <a href="index.html"><img src="/assets/Logo.png" alt="Brand Logo" /></a>
+          <p>Book your trip in minute, get full Control for much longer.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul class="ls-none m-0 p-0">
+            <li><a href="#" class="decoration-none secondary-color">About</a></li>
+            <li><a href="#" class="decoration-none secondary-color">Careers</a></li>
+            <li><a href="#" class="decoration-none secondary-color">Mobile</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="ls-none m-0 p-0">
+            <li><a href="#" class="decoration-none secondary-color">Help</a></li>
+            <li><a href="#" class="decoration-none secondary-color">FAQs</a></li>
+            <li><a href="#" class="decoration-none secondary-color">Press</a></li>
+            <li><a href="#" class="decoration-none secondary-color">Affiliates</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="ls-none m-0 p-0">
+            <li><a href="#" class="decoration-none secondary-color">Airline Fees</a></li>
+            <li><a href="#" class="decoration-none secondary-color">Airlines</a></li>
+            <li><a href="#" class="decoration-none secondary-color">Low Fare Trips</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="d-flex gap-2">
+            <span class="social-icon facebook"><i class="bi bi-facebook"></i></span>
+            <span class="social-icon instagram"><i class="bi bi-instagram"></i></span>
+            <span class="social-icon twitter"><i class="bi bi-twitter"></i></span>
+          </div>
+          <h4>Download our App</h4>
+          <div>
+            <img src="/assets/Google Play.png" alt="Google Play Store Image" />
+            <img src="/assets/Play Store.png" alt="App Store Image" />
+          </div>
+        </div>
+      </footer>
+       </section> 
+    </body>
+</html>
